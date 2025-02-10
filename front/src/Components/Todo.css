@@ -1,0 +1,86 @@
+
+.todos {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 20px;
+    margin-top: 14px;
+}
+
+
+
+.td {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    
+    border-color: salmon;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#list-item {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease-in-out;
+    width: fit-content;
+    min-width: 300px;
+}
+
+#list-item:hover {
+    background-color: #f1f1f1;
+}
+
+#list-item button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#list-item button:hover {
+    background-color: #cc0000;
+}
