@@ -5,12 +5,8 @@ import Login from "./Components/Login"
 import {BrowserRouter as Router , Routes , Route ,} from "react-router-dom"
 import Dash from "./Components/Dash"
 
-
-
-
-
-
 const App = () => {
+//this is a comment from ai-collab 
   return (
     <div>
      
